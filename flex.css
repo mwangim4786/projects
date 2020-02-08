@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -27,9 +28,10 @@ body {
     margin: 15px;
 }
 
-h2 {
+p {
     font-family: sans-serif;
     color: cornsilk;
+    text-align: justify;
 }
 
 .flex-container1 {
@@ -51,8 +53,11 @@ h2 {
     background: none;
 }
 
+.flex-container1 div img {
+    padding: 20px;
+}
 
-
-
-
-
+img {
+    height: 230px;
+    width: 250px;
+}
