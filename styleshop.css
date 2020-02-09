@@ -1,0 +1,41 @@
+.shop {
+    position: absolute;
+    left: 0%;
+    right: 91%;
+    top: 0%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: blue;
+    color: chocolate;
+}
+
+.shop h1 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+      
+}
+
+.par{
+    position: absolute;
+    top: 10%;
+    font-family: sans-serif;
+}
+
+.advert
+{
+    position: absolute;
+    width: 100%;
+    border: 1px solid fuchsia;
+    background-color: fuchsia;
+    left: 0%;
+    top: 21%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+   
