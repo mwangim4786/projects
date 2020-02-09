@@ -123,7 +123,7 @@ p {
     line-height: 25px;
 }
 
-/* .flex-container1 .fix img {
+.flex-container1 .fix img {
     position: relative;
     float: right;
     left: 20%;
@@ -131,7 +131,7 @@ p {
     width: 250px;
 }
 
-.flex-container1 .fix p {
+/* .flex-container1 .fix p {
     color: black;
     
 }
