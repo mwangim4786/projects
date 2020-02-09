@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    background-image: sparkle.jpg;
+}
+
+.top {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.733);
+    border-radius: 5px;
+    background-color: sandybrown;
+}
+
+.top h1 {
+   color: rgba(77, 199, 21, 0.411);
+}
+
+.box {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 400px;
+   padding: 40px;
+   background: rgb(0, 0, 0, .8);
+   box-sizing: border-box;
+   box-shadow: 0, 15px, 25px rgba(0, 0, 0, .5);
+   border-radius: 10px;
+}
+
+.box h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.box .inputbox {
+    position: relative;
+}
+
+.box .inputbox input {
+   width: 100%; 
+   padding: 10px 0;
+   font-size: 16px;
+   color: #fff;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+   border: none;
+   border-bottom: 1px solid #fff;
+   outline: none;
+   background: transparent;
+}
+
+.box .inputbox label { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+ }
+
+ .box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.box input[type="submit"]:hover {
+    color: #990099;
+    background: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: burlywood;
+    border: solid blueviolet;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    /* image-resolution: 50 50; */
+}
+.grid-item {
+    border: solid #990099;
+    padding: 20px;
+    font-size: 30px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.paint {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(7, 85, 255);
+}
+
