@@ -102,12 +102,16 @@ p {
 }
 
 .flex-container1 div {
-    margin: 15px;
+    margin:  15px 100px;
     background: none;
+    /* padding: 0 20px; */
 }
 
 .flex-container1 div img {
     padding: 20px;
+    float: right;
+    position: relative;
+    
 }
 
 img {
