@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birth date day</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/bdate.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+
+<h1>BIRTH-DAY</h1>
+
+<p>Ever wonder what day you were born? Well, you can find out with this application. 
+    You can confirm your day of birth with the corresponding AKAN name. AKAN names are 
+    names which correspond to the day in the week which one is born.</p> <p>Simply type your date of birth details and it will tell you.</p>
+
+
+    <div class="form">
+        <input type="text" id="century" placeholder="Enter century of Birth"><span >If 1990, enter 19</span><br>
+        <input type="text" id="year" placeholder="Enter year of Birth"><span >If 1990, enter 90</span><br>
+        <input type="text" id="month" placeholder="Enter Month"><br>
+        <input type="text" id="day" placeholder="Enter Date"><br><br>
+        <input type="radio" name="gender" id="m">Male<br>
+        <input type="radio" name="gender" id="f">Female<br><br>
+        <button id="populate" onclick="calc();">Submit</button>
+        <input type="text" id="answer" placeholder="ANSWER" disabled="disabled" >
+     </div>
+    
+</body>
+</html>
