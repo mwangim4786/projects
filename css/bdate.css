@@ -1,0 +1,16 @@
+h3 {
+    color: mediumblue ;
+}
+ul li {
+    color: black;
+}
+.form {
+    color: cornsilk;
+}
+.form .paragraph{
+    font-size: 14px;
+}
+.form input{
+    margin-bottom: 10px;
+    color: black;
+}
