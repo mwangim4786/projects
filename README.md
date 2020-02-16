@@ -15,6 +15,6 @@ For querries, comments or complaints please reach me via my email: mwangim4786@g
 ### License
 *Licensed under the MIT License.*
 ## live link
-(https://github.com/mwangim4786/projects)
+(https://mwangim4786.github.io/projects/)
 
 Copyright (c) 2020 **MARTIN KIHUNGI**
